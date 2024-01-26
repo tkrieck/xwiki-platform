@@ -21,6 +21,9 @@
 ### Annotations page in the "view" mode
 ###
 ###
+
+### test comment
+
 #if("$!request.xpage" == 'annotations')
   $response.sendRedirect($doc.getURL('view', 'viewer=annotations'))
 #else
